@@ -1,0 +1,42 @@
+1. Importing the packages
+2. Exploring the dataset 
+	- Diabetic Retinopathy Classification
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	
+	
+4. Building the model 
+    - ResNet50
+    - InceptionV3
+    - InceptionV3 and ResNet50 Combination with CNN
+    - DenseNet201
+    - Xception
+5. Training the model
+6. Building the model 
+
+
+Flask Framework
+----------------
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
+Dataset
+----------
+https://www.kaggle.com/datasets/vuppalaadithyasairam/fundus-images-for-diabetic-retinopathy 
+
+Extension
+----------
+
+In the base paper, the author mentioned to use different models for analysis the DR Dataset like ResNet50, InceptionV3 and Combination of IR with CNN  96% of accuracy, 
+However, we can further enhance the performance by exploring other techniques such as DenseNet and Xception for analysis Dataset, in which may get 97% of accuracy or above,
+With the above As an extension we can build the front end using flask framework for user testing with authentication.
